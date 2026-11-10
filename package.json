@@ -1,20 +1,21 @@
 {
-
-  "name": "api",
-
+  "name": "api-ondecomer",
   "version": "1.0.0",
-
+  "description": "API JSON para o app OndeComer",
+  "main": "server.js",
   "scripts": {
-
-    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0" 
-
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000 --host 0.0.0.0"
   },
-
+  "keywords": [
+    "api",
+    "json-server",
+    "restaurante"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-
-    "json-server": "^0.17.0"
-
+    "json-server": "^0.17.4"
   }
-
 }
  
